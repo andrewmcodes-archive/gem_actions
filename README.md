@@ -27,7 +27,6 @@ gem "gem_actions"
 ### Supported Ruby versions
 
 - Ruby (MRI) >= 2.5.0
-- JRuby >= 9.2.9
 
 ## Usage
 
