@@ -27,12 +27,9 @@ desc "Fix RuboCop violations"
 task fix: ["rubocop:auto_correct"]
 
 task "prepare:changelog" do
-  repo = "https://github.com/andrewmcodes/gem_actions"
   changelog = IO.readlines("CHANGELOG.md").map(&:chomp)
   entries = [
-    "## [#{GemActions::VERSION}] - #{Date.today}",
-    "[#{GemActions::VERSION}]: #{repo}/releases/tag/v#{GemActions::VERSION}",
-    "[Unreleased]: #{repo}/compare/v#{GemActions::VERSION}...HEAD"
+    "### v#{GemActions::VERSION} (#{Date.today})"
   ]
   unless entries.all? { |x| changelog.include? x }
     puts "\nAdd these to CHANGELOG.md:\n\n"
