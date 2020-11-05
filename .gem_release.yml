@@ -1,3 +1,0 @@
-bump:
-  file: lib/gem_actions/version.rb
-  skip_ci: false
