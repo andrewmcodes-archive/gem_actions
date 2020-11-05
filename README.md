@@ -1,4 +1,8 @@
 [![Gem Version](https://badge.fury.io/rb/gem_actions.svg)](https://rubygems.org/gems/gem_actions) [![Build](https://github.com/andrewmcodes/gem_actions/workflows/Build/badge.svg)](https://github.com/andrewmcodes/gem_actions/actions)
+![Lint Ruby](https://github.com/andrewmcodes/gem_actions/workflows/Lint%20Ruby/badge.svg)
+![Lint Docs](https://github.com/andrewmcodes/gem_actions/workflows/Lint%20Docs/badge.svg)
+![Build](https://github.com/andrewmcodes/gem_actions/workflows/Build/badge.svg)
+![Release](https://github.com/andrewmcodes/gem_actions/workflows/Release/badge.svg)
 
 # Gem Actions
 
